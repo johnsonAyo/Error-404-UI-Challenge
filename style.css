@@ -1,0 +1,121 @@
+.body{
+    background-color: darkkhaki,
+    
+}
+
+.container{
+    color: black;
+    height: 80vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 1rem;
+}
+.heading{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+
+.sub_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Space Mono', monospace;
+   
+}
+.sub_content div:nth-child(1) {
+    font-size: 2.5rem;
+    width: 600px;
+}
+.sub_content div:nth-child(2) {
+    font-size: 1rem;
+    font-weight: 20px;
+    color: rgb(114, 109, 109);
+   
+    width: 300px;
+}
+.button {
+    margin-top: 2rem;
+    font-size: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    background: #333333; 
+    width: 200px;
+    height: 50px;
+}
+
+footer{
+    font-size: 10px;
+    color: rgb(163, 159, 159);
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+@media only screen and (max-width: 768px) {
+    .sub_content div:nth-child(1) {
+        font-size: 2rem;
+        font-family: 'Space Mono', monospace;
+        width: 100%;
+    }
+    .sub_content div:nth-child(2) {
+        font-size: 1rem;
+        font-weight: 20px;
+        color: rgb(114, 109, 109);
+       
+        width: 300px;
+    }
+    footer{
+        font-size: 10px;
+        color: rgb(163, 159, 159);
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    img{
+        height : 250px;
+        width : 300px;
+    }
+
+
+
+
+    /* for iphone 5s screen  */
+@media only screen and (max-width: 480px) {
+    .sub_content div:nth-child(1) {
+        font-size: 1rem;
+        font-family: 'Space Mono', monospace;
+        width: 100%;
+    }
+    .sub_content div:nth-child(2) {
+        font-size: 0.5rem;
+        font-weight: 20px;
+        color: rgb(114, 109, 109);
+       
+        width: 300px;
+    }
+    footer{
+        font-size: 10px;
+        color: rgb(163, 159, 159);
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    img{
+        height : 200px;
+        width : 150px;
+    }
+  }
+}
